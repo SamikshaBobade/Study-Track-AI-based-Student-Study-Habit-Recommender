@@ -1,0 +1,49 @@
+# Milestone 1: Data Preprocessing and Exploratory Data Analysis
+
+## 🎯 Objective
+To preprocess and analyze student performance data by combining multiple tables and uncovering key learning patterns using data visualization and statistics.
+
+---
+
+## 📂 Dataset Source
+- **Dataset Name:** Students Performance Dataset  
+- **Source:** [Kaggle - Students Performance in Exams](https://www.kaggle.com/datasets/whenamancodes/students-performance-in-exams)
+- **Tables Used:**
+  - `students.csv` – contains student demographic and academic info.
+  - `study_logs.csv` – contains daily study records and scores.
+- **Common Key:** `student_id`
+
+---
+
+## ⚙️ Steps Followed
+1. **Imported and joined** two datasets using `pandas.merge()`.
+2. **Handled missing values** and **removed duplicates**.
+3. **Encoded categorical variables** using one-hot encoding.
+4. **Scaled numerical columns** for consistency.
+5. **Generated summary statistics** and identified outliers.
+6. **Performed EDA** with visualizations:
+   - Score distribution
+   - Study hours vs. performance
+   - Gender-based score differences
+   - Correlation heatmap
+
+---
+
+## 🛠️ Tools & Libraries
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+
+## 📊 Key Insights
+- Positive correlation between study hours and performance.
+- Slight gender-based variation in score averages.
+- Few outliers identified in study time and scores.
+- Department-level performance trends observed.
+
+
+## 📈 Sample Visualizations
+(Include screenshots of your plots here)
+
