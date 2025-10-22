@@ -1,50 +1,71 @@
 # Milestone 1: Data Preprocessing and Exploratory Data Analysis
 
-## 🎯 Objective
-To preprocess and analyze student performance data by combining multiple tables and uncovering key learning patterns using data visualization and statistics.
+## Objective
+The goal of this milestone is to preprocess student performance data and perform **Exploratory Data Analysis (EDA)**.  
+This will help understand the dataset, detect patterns, identify outliers, and prepare the data for future machine learning tasks like performance prediction or recommender systems.
 
 ---
 
-## 📂 Dataset Source
-- **Dataset Name:** Students Performance Dataset  
-- **Source:** [Kaggle - Students Performance in Exams](https://www.kaggle.com/datasets/whenamancodes/students-performance-in-exams)
-- **Tables Used:**
-  - `students.csv` – contains student demographic and academic info.
-  - `study_logs.csv` – contains daily study records and scores.
-- **Common Key:** `student_id`
+## Dataset Source
+**Kaggle Dataset:** [Student Performance for Recommender Systems](https://www.kaggle.com/datasets/rodrigotertulino/student-performance-for-recommender-systems)  
+
+The dataset contains information about students and their learning activities. For this milestone, the dataset was **split into two tables**:  
+- `Table1.csv` → Student information (age, gender, program, prior GPA)  
+- `Table2.csv` → Study logs and performance metrics (total logins, avg session duration, quiz scores, final exam score, student performance label)
+
+**Common key for join:** `student_id`
 
 ---
 
-## ⚙️ Steps Followed
-1. **Imported and joined** two datasets using `pandas.merge()`.
-2. **Handled missing values** and **removed duplicates**.
-3. **Encoded categorical variables** using one-hot encoding.
-4. **Scaled numerical columns** for consistency.
-5. **Generated summary statistics** and identified outliers.
-6. **Performed EDA** with visualizations:
-   - Score distribution
-   - Study hours vs. performance
-   - Gender-based score differences
-   - Correlation heatmap
+## Steps Followed
+
+### 1. Data Merge
+- Imported `Table1.csv` and `Table2.csv` using Pandas.
+- Performed a **merge on `student_id`** to create a consolidated dataset.
+
+### 2. Data Preprocessing
+- Handled **missing values** (numeric → mean, categorical → mode).  
+- Removed **duplicate rows**.  
+- Fixed **data types**: numeric columns as `int/float`, categorical columns as `category`, IDs as `string`.  
+- **Encoded categorical variables** using Label Encoding / One-Hot Encoding.  
+- **Normalized numeric columns** using StandardScaler for comparability.
+
+### 3. Descriptive Analysis
+- Generated **summary statistics**: mean, median, standard deviation.  
+- Computed **correlation matrix** to identify relationships between numeric features.  
+- Detected **outliers** using the IQR method.  
+- Checked **categorical distributions** to identify imbalances in gender, program, and student performance.
+
+### 4. Exploratory Data Analysis (EDA)
+- **Value distributions:** Histograms for numeric features, Countplots for categorical features.  
+- **Relationship plots:** Scatterplots, Boxplots, and Barplots to analyze feature interactions.  
+- **Correlation heatmap:** Visualized correlations between numeric features.  
+- **Pattern/trend plots:** Examined relationship between student engagement (`total_logins`) and performance (`final_exam_score`).
 
 ---
 
-## 🛠️ Tools & Libraries
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib   
+## Tools Used
+- **Python 3**  
+- **Google Colaboratory**  
+- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
 
 ---
 
-## 📊 Key Insights
-- Positive correlation between study hours and performance.
-- Slight gender-based variation in score averages.
-- Few outliers identified in study time and scores.
-- Department-level performance trends observed.
+## Key Insights
+1. **Student performance distribution** is imbalanced; majority belong to category 0.  
+2. **Correlation analysis** shows `quiz_scores_avg` is highly correlated with `final_exam_score`.  
+3. **Outliers detected** in numeric features like `avg_session_duration` and `total_logins`.  
+4. **Gender and program distributions** are slightly imbalanced but mostly even.  
+5. **Pattern analysis** suggests higher engagement (logins, session duration) is generally associated with better exam performance.
 
 ---
 
-## 📈 Sample Visualizations
-(Include screenshots of your plots here)
+## Visualizations
 
+- Value Distributions : Histogram  
+- Relationship Plots : Barplot  
+- Correlation heatmap  
+- Pattern Relationship 
+
+  
+---
