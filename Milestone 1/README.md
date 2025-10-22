@@ -95,15 +95,15 @@ Join key: `student_id`
 - Pattern Relationship (e.g., `total_logins` vs `final_exam_score`)
 
 Histogram of numeric features  
-  ![Histograms of numeric features](images/histogram.png)
+  ![Histograms of numeric features](data/images/histogram.png)
 
 - Barplots  
-  ![Barplots for categorical features](images/barplot.png)
+  ![Barplots for categorical features](data/images/barplot.png)
 
 - Correlation heatmap  
-  ![Correlation heatmap](images/correlation_heatmap.png)
+  ![Correlation heatmap](data/images/heatmap.png)
 
 - Pattern Relationship (total_logins vs final_exam_score)  
-  ![Engagement vs Performance](images/pattern_relation.png)
+  ![Engagement vs Performance](data/images/pattern_relation.png)
 
 
