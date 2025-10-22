@@ -92,8 +92,18 @@ Join key: `student_id`
 - Histograms (value distributions for numeric features)
 - Barplots 
 - Correlation heatmap
-- Engagement vs performance plots (e.g., `total_logins` vs `final_exam_score`)
+- Pattern Relationship (e.g., `total_logins` vs `final_exam_score`)
 
-(Visualization files or notebook cells with the plots should be located in the Milestone 1 folder or the analysis notebook.)
+Histogram of numeric features  
+  ![Histograms of numeric features](images/histogram.png)
+
+- Barplots  
+  ![Barplots for categorical features](images/barplot.png)
+
+- Correlation heatmap  
+  ![Correlation heatmap](images/correlation_heatmap.png)
+
+- Pattern Relationship (total_logins vs final_exam_score)  
+  ![Engagement vs Performance](images/pattern_relation.png)
 
 
