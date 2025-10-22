@@ -1,0 +1,501 @@
+student_id,age,gender,part_time_job,diet_quality,parental_education_level,internet_quality,extracurricular_participation
+1,24,Male,No,Good,High School,High,No
+2,21,Female,No,Average,Master's,Medium,Yes
+3,22,Male,Yes,Average,Bachelor's,Medium,Yes
+4,24,Female,Yes,Good,High School,Medium,No
+5,20,Male,Yes,Average,Master's,High,Yes
+6,22,Male,No,Average,High School,Medium,No
+7,22,Female,No,Good,Bachelor's,Medium,Yes
+8,24,Male,No,Poor,High School,Medium,Yes
+9,19,Female,No,Poor,High School,High,No
+10,20,Female,No,Average,Bachelor's,Medium,No
+11,24,Female,No,Good,Bachelor's,Low,No
+12,20,Male,Yes,Poor,Bachelor's,Medium,No
+13,20,Male,No,Poor,Master's,Medium,Yes
+14,22,Female,No,Poor,Bachelor's,Low,Yes
+15,21,Female,No,Poor,High School,High,No
+16,20,Male,No,Poor,High School,Medium,No
+17,23,Female,No,Average,Master's,High,Yes
+18,22,Female,No,Average,Master's,Medium,No
+19,19,Female,No,Average,Bachelor's,High,Yes
+20,21,Male,No,Average,High School,Low,Yes
+21,23,Male,No,Poor,High School,Medium,Yes
+22,23,Male,No,Average,Bachelor's,High,No
+23,19,Female,No,Average,Master's,High,No
+24,21,Female,No,Good,Bachelor's,Medium,Yes
+25,22,Female,No,Poor,Master's,Medium,No
+26,18,Male,Yes,Average,Master's,High,Yes
+27,21,Female,No,Average,High School,Medium,Yes
+28,19,Female,No,Good,Bachelor's,High,Yes
+29,23,Female,No,Good,High School,High,Yes
+30,22,Female,No,Average,High School,Low,Yes
+31,21,Male,Yes,Average,Master's,Low,No
+32,18,Male,No,Good,Bachelor's,Medium,No
+33,18,Female,No,Poor,Bachelor's,Low,No
+34,20,Male,No,Poor,High School,Medium,Yes
+35,20,Male,No,Average,High School,High,Yes
+36,24,Female,No,Poor,High School,Medium,Yes
+37,19,Female,No,Good,High School,High,Yes
+38,21,Male,Yes,Good,Bachelor's,Medium,No
+39,21,Female,Yes,Average,High School,Medium,Yes
+40,24,Male,No,Average,Bachelor's,Low,No
+41,23,Female,No,Good,High School,Medium,No
+42,23,Male,Yes,Good,High School,Medium,Yes
+43,24,Female,No,Average,High School,Medium,No
+44,23,Male,No,Good,Bachelor's,High,No
+45,20,Male,No,Good,Bachelor's,Medium,No
+46,21,Male,No,Good,Bachelor's,Medium,No
+47,24,Female,No,Poor,Bachelor's,Medium,Yes
+48,21,Male,No,Average,Bachelor's,Low,Yes
+49,18,Male,No,Good,High School,Medium,Yes
+50,20,Female,Yes,Average,High School,Low,Yes
+51,22,Female,No,Good,Master's,Low,No
+52,20,Male,No,Poor,Bachelor's,Low,Yes
+53,24,Male,No,Poor,High School,Medium,No
+54,22,Female,No,Average,Master's,High,No
+55,18,Female,No,Poor,Master's,Medium,Yes
+56,24,Female,No,Good,High School,Medium,Yes
+57,19,Female,Yes,Good,Bachelor's,Medium,No
+58,21,Female,No,Good,Bachelor's,Low,No
+59,18,Male,No,Average,Bachelor's,High,No
+60,21,Female,No,Average,High School,Medium,Yes
+61,23,Male,Yes,Average,High School,Medium,Yes
+62,19,Male,No,Average,Bachelor's,Medium,Yes
+63,19,Male,No,Average,Bachelor's,Low,Yes
+64,18,Female,No,Average,Master's,Medium,No
+65,19,Male,No,Average,Bachelor's,Medium,No
+66,22,Male,Yes,Average,High School,High,No
+67,19,Female,No,Good,Bachelor's,Low,No
+68,21,Male,No,Good,High School,Medium,No
+69,21,Male,Yes,Average,Bachelor's,Medium,Yes
+70,24,Female,No,Average,Bachelor's,Low,Yes
+71,21,Male,No,Good,High School,Medium,No
+72,24,Male,No,Poor,Bachelor's,High,Yes
+73,21,Male,Yes,Good,High School,High,No
+74,22,Female,No,Good,High School,Medium,No
+75,24,Female,Yes,Average,High School,High,Yes
+76,20,Female,No,Average,High School,High,No
+77,23,Male,Yes,Average,PhD,High,No
+78,18,Male,No,Average,Bachelor's,Low,No
+79,21,Female,No,Poor,High School,High,No
+80,19,Male,No,Good,Bachelor's,Medium,No
+81,21,Male,No,Poor,High School,High,Yes
+82,19,Female,Yes,Average,PhD,Medium,Yes
+83,23,Female,No,Good,Bachelor's,Low,No
+84,23,Male,No,Good,Master's,High,No
+85,23,Male,No,Average,High School,Medium,Yes
+86,19,Male,Yes,Average,Bachelor's,High,Yes
+87,21,Female,Yes,Poor,Bachelor's,High,No
+88,23,Female,Yes,Average,Master's,Medium,No
+89,22,Female,No,Poor,High School,Low,No
+90,24,Female,No,Average,High School,Medium,No
+91,19,Male,No,Good,PhD,Low,Yes
+92,19,Female,Yes,Poor,Bachelor's,Low,Yes
+93,21,Female,No,Good,High School,High,No
+94,19,Female,No,Good,High School,Medium,Yes
+95,19,Female,No,Poor,PhD,Medium,Yes
+96,23,Female,Yes,Good,High School,High,Yes
+97,21,Male,No,Average,Bachelor's,Medium,No
+98,23,Male,Yes,Good,Master's,Medium,No
+99,24,Female,No,Average,High School,High,Yes
+100,24,Male,No,Average,Bachelor's,Low,Yes
+101,23,Female,Yes,Average,High School,High,No
+102,24,Female,No,Good,High School,High,No
+103,21,Male,Yes,Good,Master's,High,Yes
+104,18,Male,No,Average,Master's,Medium,Yes
+105,23,Female,No,Good,Bachelor's,Medium,Yes
+106,22,Female,No,Average,Bachelor's,Medium,No
+107,22,Female,No,Poor,High School,High,Yes
+108,19,Male,No,Poor,High School,High,Yes
+109,24,Female,No,Average,High School,Medium,No
+110,22,Female,No,Average,High School,Medium,No
+111,19,Female,No,Good,High School,Low,Yes
+112,18,Male,No,Poor,High School,Low,No
+113,21,Female,No,Average,High School,High,Yes
+114,21,Female,No,Poor,High School,Medium,No
+115,21,Male,No,Good,Bachelor's,High,Yes
+116,22,Female,No,Good,Master's,High,No
+117,18,Female,No,Average,High School,Low,Yes
+118,22,Male,Yes,Good,Master's,Medium,No
+119,24,Female,No,Poor,Master's,Medium,No
+120,22,Male,No,Good,High School,Medium,No
+121,18,Male,No,Average,Master's,High,No
+122,18,Female,Yes,Good,Bachelor's,High,No
+123,24,Female,Yes,Poor,Bachelor's,High,Yes
+124,18,Female,No,Average,High School,Medium,Yes
+125,18,Female,No,Good,Bachelor's,Low,No
+126,21,Male,No,Average,High School,High,Yes
+127,24,Female,Yes,Poor,Bachelor's,Low,No
+128,20,Male,No,Poor,Bachelor's,Medium,No
+129,20,Female,Yes,Average,Bachelor's,Low,Yes
+130,18,Female,No,Average,Bachelor's,Medium,No
+131,20,Female,Yes,Poor,Bachelor's,Low,Yes
+132,20,Male,Yes,Average,High School,Medium,No
+133,18,Female,No,Poor,High School,High,Yes
+134,20,Female,No,Good,Master's,Low,Yes
+135,22,Female,No,Poor,High School,Low,No
+136,19,Female,No,Average,High School,Medium,No
+137,24,Male,No,Poor,High School,High,No
+138,19,Female,Yes,Average,High School,Medium,No
+139,18,Male,No,Good,PhD,Medium,Yes
+140,21,Male,No,Average,Bachelor's,Low,No
+141,24,Male,No,Poor,Master's,High,Yes
+142,18,Male,No,Good,Bachelor's,Medium,No
+143,21,Male,No,Good,Bachelor's,High,No
+144,19,Male,No,Poor,High School,High,No
+145,18,Female,No,Good,Bachelor's,Medium,No
+146,24,Male,No,Good,High School,High,Yes
+147,24,Male,Yes,Poor,Master's,Low,No
+148,23,Male,No,Good,Master's,High,Yes
+149,22,Female,No,Good,High School,Medium,No
+150,20,Female,Yes,Average,PhD,High,Yes
+151,21,Male,No,Poor,Master's,Low,No
+152,23,Female,No,Poor,Bachelor's,Low,No
+153,20,Male,No,Good,High School,Medium,Yes
+154,20,Male,No,Good,Bachelor's,Medium,Yes
+155,18,Female,Yes,Average,Bachelor's,Medium,No
+156,20,Male,No,Average,High School,Medium,Yes
+157,22,Female,No,Average,High School,Low,Yes
+158,24,Female,No,Average,Master's,Medium,Yes
+159,23,Male,No,Average,High School,High,Yes
+160,20,Male,No,Poor,Bachelor's,Medium,No
+161,18,Female,No,Good,Master's,Low,No
+162,22,Male,No,Average,Master's,Medium,Yes
+163,19,Male,No,Good,High School,Low,Yes
+164,24,Male,Yes,Average,Master's,High,Yes
+165,24,Female,No,Poor,High School,Low,Yes
+166,23,Female,Yes,Poor,High School,High,Yes
+167,24,Male,Yes,Average,Bachelor's,High,Yes
+168,20,Female,Yes,Good,High School,High,Yes
+169,18,Female,Yes,Poor,High School,Medium,No
+170,24,Female,No,Good,Bachelor's,High,Yes
+171,24,Female,No,Average,High School,High,No
+172,19,Female,No,Good,High School,Medium,No
+173,19,Male,Yes,Average,Bachelor's,Medium,No
+174,21,Male,No,Good,Master's,Medium,No
+175,22,Male,No,Good,Bachelor's,Medium,No
+176,20,Female,No,Average,High School,Medium,No
+177,24,Female,No,Poor,Bachelor's,Medium,No
+178,24,Male,No,Good,High School,Medium,No
+179,18,Female,Yes,Good,High School,Low,No
+180,21,Male,No,Poor,Master's,Low,No
+181,22,Male,No,Good,High School,Medium,Yes
+182,21,Male,No,Good,High School,Low,Yes
+183,23,Female,Yes,Good,Bachelor's,Medium,Yes
+184,22,Female,No,Good,Bachelor's,Medium,No
+185,24,Male,No,Good,Bachelor's,High,No
+186,24,Male,No,Average,High School,Low,No
+187,22,Male,No,Average,High School,Medium,No
+188,24,Male,No,Average,High School,High,Yes
+189,20,Female,Yes,Good,High School,Medium,Yes
+190,22,Female,Yes,Good,Bachelor's,Low,No
+191,21,Male,No,Average,Master's,High,No
+192,22,Male,No,Good,Bachelor's,High,No
+193,24,Female,No,Good,Master's,Medium,Yes
+194,20,Female,No,Average,Bachelor's,Medium,No
+195,20,Male,No,Average,Bachelor's,High,No
+196,23,Male,No,Average,High School,Medium,No
+197,21,Male,No,Poor,Bachelor's,Medium,No
+198,19,Female,No,Average,Bachelor's,High,No
+199,19,Female,No,Poor,High School,Medium,Yes
+200,22,Female,No,Poor,High School,Medium,No
+201,23,Male,No,Average,PhD,Medium,No
+202,18,Male,No,Average,High School,High,No
+203,22,Female,No,Poor,High School,Medium,No
+204,23,Female,No,Good,Bachelor's,Medium,Yes
+205,21,Male,No,Average,Master's,Medium,Yes
+206,21,Female,Yes,Good,Bachelor's,Medium,No
+207,21,Female,Yes,Good,Bachelor's,Medium,No
+208,21,Male,No,Poor,High School,High,No
+209,21,Female,No,Average,Bachelor's,Medium,Yes
+210,23,Male,No,Poor,High School,Low,No
+211,23,Male,No,Average,Master's,High,No
+212,20,Male,No,Average,Bachelor's,Low,No
+213,19,Male,Yes,Average,High School,High,Yes
+214,24,Male,No,Average,High School,Low,No
+215,21,Male,No,Average,High School,Medium,No
+216,18,Male,No,Poor,High School,Low,Yes
+217,24,Female,No,Average,High School,High,No
+218,23,Male,No,Average,Bachelor's,Medium,No
+219,18,Male,No,Average,Bachelor's,Low,No
+220,18,Female,No,Average,High School,Medium,Yes
+221,18,Female,No,Good,High School,Low,Yes
+222,20,Female,Yes,Poor,High School,Low,Yes
+223,23,Male,Yes,Average,Master's,High,Yes
+224,18,Female,No,Average,High School,Medium,Yes
+225,21,Male,No,Average,Bachelor's,High,No
+226,22,Male,No,Good,Master's,Medium,Yes
+227,18,Male,Yes,Good,Bachelor's,Medium,No
+228,20,Male,No,Average,Master's,Low,No
+229,24,Female,No,Good,High School,Medium,No
+230,23,Female,No,Good,PhD,High,No
+231,20,Male,No,Good,High School,High,No
+232,18,Male,No,Good,High School,Medium,No
+233,23,Male,No,Good,Bachelor's,Medium,Yes
+234,22,Female,No,Poor,Master's,Medium,Yes
+235,18,Male,No,Poor,Master's,High,No
+236,20,Male,No,Average,High School,Medium,No
+237,19,Female,Yes,Poor,High School,Medium,Yes
+238,21,Female,No,Average,Master's,High,No
+239,24,Male,No,Average,High School,Low,No
+240,20,Female,No,Average,Master's,Low,Yes
+241,23,Female,No,Good,Master's,Medium,No
+242,18,Male,No,Good,Bachelor's,High,No
+243,21,Female,No,Poor,High School,Medium,Yes
+244,18,Male,No,Average,Bachelor's,Medium,No
+245,23,Female,Yes,Good,High School,Medium,Yes
+246,18,Male,No,Poor,Master's,Medium,No
+247,19,Male,Yes,Good,Bachelor's,Medium,Yes
+248,21,Male,No,Average,Master's,Medium,Yes
+249,21,Female,No,Average,High School,Medium,No
+250,23,Male,Yes,Good,PhD,Medium,No
+251,24,Female,Yes,Average,Bachelor's,Medium,Yes
+252,19,Male,Yes,Average,High School,Medium,Yes
+253,20,Male,No,Good,High School,High,No
+254,18,Female,No,Poor,Bachelor's,Low,Yes
+255,22,Male,Yes,Average,Bachelor's,High,Yes
+256,18,Male,No,Good,Master's,High,Yes
+257,18,Female,No,Poor,High School,Medium,Yes
+258,20,Male,Yes,Good,High School,Medium,No
+259,18,Male,No,Average,Bachelor's,Medium,No
+260,19,Male,No,Average,High School,Medium,Yes
+261,19,Male,No,Average,Bachelor's,Medium,No
+262,21,Female,Yes,Average,PhD,Low,Yes
+263,23,Female,Yes,Good,PhD,Medium,No
+264,24,Male,Yes,Good,Master's,High,No
+265,22,Female,No,Average,Master's,Medium,Yes
+266,18,Male,No,Good,High School,High,No
+267,18,Female,Yes,Average,Bachelor's,Medium,No
+268,20,Male,Yes,Average,Bachelor's,High,Yes
+269,23,Male,Yes,Average,Master's,Medium,Yes
+270,19,Male,Yes,Average,High School,Low,Yes
+271,22,Male,No,Average,Bachelor's,Medium,No
+272,21,Male,No,Good,High School,Low,No
+273,19,Male,No,Average,Bachelor's,Medium,No
+274,23,Female,Yes,Poor,Master's,High,No
+275,24,Male,No,Poor,Master's,Low,No
+276,21,Female,No,Average,High School,Medium,No
+277,24,Male,No,Good,PhD,High,No
+278,20,Female,Yes,Average,Bachelor's,High,Yes
+279,20,Female,No,Average,High School,Medium,No
+280,18,Female,No,Average,High School,Medium,No
+281,24,Male,Yes,Average,High School,Medium,Yes
+282,23,Male,No,Average,High School,Medium,No
+283,22,Female,No,Average,PhD,High,Yes
+284,21,Male,No,Good,Bachelor's,High,No
+285,19,Female,No,Good,Master's,High,No
+286,23,Male,No,Average,High School,High,Yes
+287,23,Female,No,Poor,High School,Low,Yes
+288,20,Female,No,Poor,Bachelor's,High,Yes
+289,24,Male,Yes,Poor,High School,High,No
+290,18,Female,No,Average,Bachelor's,Low,Yes
+291,18,Male,Yes,Average,Master's,High,No
+292,21,Female,No,Average,Bachelor's,Medium,Yes
+293,20,Female,Yes,Average,Bachelor's,Medium,No
+294,23,Male,Yes,Poor,High School,High,No
+295,22,Male,No,Average,High School,Medium,Yes
+296,20,Male,No,Average,High School,Low,No
+297,21,Female,Yes,Average,Bachelor's,Medium,Yes
+298,21,Male,Yes,Average,High School,Medium,No
+299,20,Female,Yes,Good,High School,High,Yes
+300,21,Female,No,Poor,Bachelor's,Medium,Yes
+301,20,Male,No,Good,High School,Medium,Yes
+302,19,Male,No,Average,High School,High,Yes
+303,20,Female,No,Good,High School,Medium,Yes
+304,24,Female,No,Average,Master's,Medium,No
+305,20,Male,No,Good,Bachelor's,Medium,No
+306,21,Male,Yes,Good,Bachelor's,High,Yes
+307,24,Male,Yes,Average,High School,Medium,No
+308,21,Male,No,Average,PhD,Medium,Yes
+309,18,Male,No,Average,Bachelor's,Low,No
+310,18,Female,No,Average,High School,Low,No
+311,24,Female,No,Poor,Master's,Low,No
+312,19,Female,No,Average,High School,Low,No
+313,18,Female,No,Average,Bachelor's,Medium,Yes
+314,20,Male,No,Average,Bachelor's,High,No
+315,21,Male,No,Good,High School,Medium,No
+316,18,Male,No,Average,PhD,High,Yes
+317,18,Female,No,Good,Bachelor's,High,No
+318,19,Female,Yes,Average,Bachelor's,High,Yes
+319,24,Male,No,Average,High School,Medium,No
+320,24,Male,No,Average,High School,Medium,Yes
+321,23,Female,No,Average,High School,Medium,Yes
+322,19,Female,No,Good,Master's,Low,No
+323,20,Male,No,Average,High School,Medium,No
+324,24,Male,No,Good,Bachelor's,High,Yes
+325,21,Female,Yes,Average,Bachelor's,High,Yes
+326,19,Male,No,Average,High School,Medium,No
+327,18,Male,Yes,Average,Bachelor's,Medium,Yes
+328,21,Male,No,Average,High School,High,Yes
+329,21,Female,Yes,Average,PhD,Low,No
+330,18,Female,No,Average,Bachelor's,Medium,No
+331,19,Female,No,Poor,High School,High,Yes
+332,18,Female,No,Average,High School,Medium,No
+333,23,Female,No,Poor,Bachelor's,Low,No
+334,21,Female,No,Average,Master's,Medium,No
+335,22,Female,No,Average,Bachelor's,High,No
+336,22,Male,No,Average,Bachelor's,Medium,Yes
+337,20,Male,No,Average,High School,Medium,Yes
+338,24,Male,Yes,Poor,High School,Medium,Yes
+339,18,Male,Yes,Average,High School,Medium,No
+340,18,Male,No,Average,Bachelor's,Medium,Yes
+341,20,Male,No,Average,Master's,High,No
+342,20,Male,No,Good,Bachelor's,Low,Yes
+343,20,Female,No,Poor,High School,High,Yes
+344,21,Female,No,Average,Bachelor's,Low,No
+345,23,Male,No,Average,Master's,Medium,Yes
+346,18,Male,No,Average,Bachelor's,Low,Yes
+347,21,Female,No,Average,Master's,Medium,No
+348,20,Male,No,Average,High School,Medium,Yes
+349,18,Male,No,Good,High School,Medium,No
+350,21,Female,No,Average,Master's,Low,No
+351,23,Male,No,Average,Bachelor's,Medium,Yes
+352,21,Female,No,Average,High School,Low,No
+353,23,Male,Yes,Average,Bachelor's,High,No
+354,20,Female,No,Poor,Master's,High,Yes
+355,23,Female,No,Average,Bachelor's,Medium,Yes
+356,18,Female,Yes,Average,Bachelor's,Medium,Yes
+357,20,Male,No,Good,High School,Medium,No
+358,18,Female,No,Average,Bachelor's,Low,Yes
+359,22,Male,No,Average,Bachelor's,Medium,No
+360,19,Male,Yes,Average,Master's,High,No
+361,23,Male,No,Average,Master's,Medium,No
+362,19,Male,No,Average,Master's,Low,Yes
+363,19,Female,No,Average,High School,High,Yes
+364,23,Female,No,Good,Bachelor's,Medium,No
+365,20,Male,No,Good,Master's,High,Yes
+366,22,Male,No,Average,Bachelor's,Medium,Yes
+367,18,Female,No,Good,Master's,Medium,Yes
+368,21,Male,No,Average,Master's,Low,Yes
+369,18,Female,Yes,Average,Bachelor's,Low,No
+370,21,Male,No,Poor,Bachelor's,High,Yes
+371,18,Male,No,Good,High School,Medium,Yes
+372,23,Female,No,Poor,High School,High,Yes
+373,22,Male,No,Average,Bachelor's,Medium,No
+374,21,Female,No,Poor,Master's,Low,No
+375,24,Male,Yes,Average,High School,Low,Yes
+376,20,Male,No,Average,High School,Medium,No
+377,18,Male,No,Poor,Bachelor's,High,No
+378,18,Female,Yes,Poor,High School,Medium,No
+379,21,Male,No,Poor,High School,Medium,No
+380,20,Male,No,Average,High School,Medium,Yes
+381,20,Male,No,Average,High School,Low,Yes
+382,23,Male,Yes,Average,High School,Medium,Yes
+383,24,Female,No,Average,High School,Low,Yes
+384,23,Female,No,Average,Bachelor's,High,No
+385,23,Male,No,Poor,Master's,Medium,Yes
+386,23,Female,No,Average,Bachelor's,Medium,Yes
+387,23,Male,No,Good,Bachelor's,Medium,No
+388,23,Male,Yes,Average,High School,Medium,No
+389,22,Male,No,Average,High School,High,Yes
+390,20,Female,No,Average,Bachelor's,Medium,Yes
+391,23,Female,Yes,Average,High School,Low,Yes
+392,20,Female,No,Average,Bachelor's,Medium,No
+393,20,Female,No,Poor,Bachelor's,Low,Yes
+394,19,Female,No,Poor,Bachelor's,Low,Yes
+395,22,Female,No,Poor,High School,High,No
+396,23,Female,No,Good,High School,High,Yes
+397,18,Female,No,Good,Bachelor's,High,No
+398,21,Female,No,Poor,High School,Medium,Yes
+399,24,Male,Yes,Poor,Bachelor's,Medium,Yes
+400,18,Female,No,Good,Bachelor's,Low,No
+401,22,Female,No,Poor,PhD,Medium,No
+402,21,Female,No,Average,High School,High,Yes
+403,22,Female,Yes,Good,Master's,Medium,No
+404,20,Female,Yes,Average,Bachelor's,High,No
+405,21,Female,Yes,Average,High School,High,No
+406,20,Female,Yes,Good,High School,Low,Yes
+407,18,Female,No,Average,Bachelor's,Medium,No
+408,18,Female,Yes,Poor,High School,Medium,Yes
+409,21,Female,No,Average,High School,Medium,Yes
+410,21,Female,No,Good,High School,High,Yes
+411,23,Male,No,Good,Master's,Medium,Yes
+412,22,Male,No,Good,Master's,Low,No
+413,23,Female,No,Poor,Bachelor's,Medium,Yes
+414,22,Female,No,Good,High School,High,Yes
+415,23,Male,No,Good,High School,Low,No
+416,20,Female,No,Average,Bachelor's,High,Yes
+417,21,Male,No,Good,Bachelor's,Medium,Yes
+418,18,Male,Yes,Good,High School,High,Yes
+419,22,Male,Yes,Average,Bachelor's,High,Yes
+420,22,Male,No,Average,PhD,Medium,Yes
+421,18,Male,Yes,Average,Bachelor's,Medium,No
+422,23,Female,No,Poor,Bachelor's,High,Yes
+423,22,Male,No,Average,PhD,Medium,Yes
+424,24,Female,No,Average,High School,High,No
+425,20,Female,No,Good,Bachelor's,Low,No
+426,21,Male,No,Good,PhD,High,Yes
+427,18,Male,No,Good,High School,High,No
+428,21,Female,No,Poor,Bachelor's,High,Yes
+429,24,Male,No,Average,Bachelor's,Low,Yes
+430,22,Male,Yes,Poor,Bachelor's,Medium,No
+431,22,Female,No,Average,Bachelor's,Medium,Yes
+432,24,Female,Yes,Good,Master's,Medium,No
+433,18,Male,No,Good,Master's,Medium,Yes
+434,20,Female,Yes,Average,High School,Low,No
+435,19,Male,No,Good,Master's,High,Yes
+436,18,Male,No,Good,High School,Medium,No
+437,19,Male,No,Average,High School,Low,No
+438,24,Female,Yes,Good,Bachelor's,Medium,No
+439,23,Female,No,Average,Bachelor's,Medium,Yes
+440,19,Female,No,Average,Bachelor's,Low,No
+441,20,Female,No,Average,Master's,High,No
+442,23,Female,No,Average,Bachelor's,High,No
+443,19,Male,No,Average,Bachelor's,Medium,No
+444,24,Male,No,Average,High School,Low,No
+445,23,Male,No,Average,Master's,High,Yes
+446,24,Male,No,Average,Master's,Medium,Yes
+447,19,Female,Yes,Average,Master's,Medium,Yes
+448,24,Male,Yes,Average,High School,Medium,Yes
+449,20,Female,Yes,Average,High School,Medium,No
+450,19,Male,No,Average,High School,Medium,No
+451,19,Female,Yes,Poor,High School,Medium,No
+452,19,Female,Yes,Average,High School,Medium,Yes
+453,18,Male,No,Poor,Master's,High,No
+454,18,Male,No,Average,Bachelor's,Medium,No
+455,18,Male,No,Good,High School,High,No
+456,20,Male,No,Average,High School,High,No
+457,23,Female,No,Average,High School,Medium,Yes
+458,24,Male,No,Good,High School,Medium,No
+459,22,Male,Yes,Good,High School,Medium,No
+460,19,Female,No,Good,High School,Medium,Yes
+461,24,Male,No,Good,Master's,High,Yes
+462,19,Male,No,Poor,PhD,Medium,No
+463,20,Male,No,Poor,High School,High,No
+464,19,Male,No,Average,Bachelor's,Low,No
+465,18,Male,No,Average,Master's,Low,No
+466,22,Female,No,Average,High School,Medium,Yes
+467,21,Male,No,Average,High School,Medium,Yes
+468,19,Male,No,Average,Master's,Medium,Yes
+469,24,Male,No,Good,High School,Medium,Yes
+470,18,Male,Yes,Good,Bachelor's,Medium,Yes
+471,21,Male,No,Average,Bachelor's,Low,Yes
+472,22,Female,Yes,Good,High School,High,Yes
+473,21,Male,No,Average,High School,Medium,No
+474,18,Female,No,Good,Master's,High,Yes
+475,23,Female,No,Poor,High School,High,No
+476,23,Male,No,Good,High School,High,No
+477,21,Male,No,Average,Bachelor's,Low,Yes
+478,20,Male,Yes,Average,Bachelor's,High,Yes
+479,24,Male,No,Poor,High School,Medium,Yes
+480,24,Female,Yes,Average,Master's,Medium,Yes
+481,21,Male,Yes,Poor,High School,Medium,No
+482,19,Male,No,Poor,Master's,High,Yes
+483,19,Male,No,Average,Master's,Medium,Yes
+484,24,Male,No,Average,Bachelor's,High,Yes
+485,24,Male,Yes,Average,Bachelor's,Medium,No
+486,23,Male,No,Good,PhD,High,No
+487,20,Female,No,Average,High School,High,No
+488,18,Female,No,Average,Bachelor's,Medium,Yes
+489,19,Male,No,Poor,High School,High,No
+490,24,Male,No,Good,High School,Low,No
+491,23,Male,No,Average,High School,Low,No
+492,22,Female,No,Good,Master's,Low,No
+493,23,Male,No,Good,PhD,Medium,Yes
+494,19,Female,No,Average,High School,Medium,No
+495,19,Male,No,Poor,High School,Low,No
+496,23,Male,No,Good,Bachelor's,Low,Yes
+497,18,Male,No,Good,Bachelor's,High,Yes
+498,21,Male,No,Poor,High School,High,No
+499,19,Female,No,Average,Bachelor's,High,Yes
+500,23,Female,No,Good,Bachelor's,High,No
