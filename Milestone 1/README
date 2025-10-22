@@ -27,17 +27,15 @@ To preprocess and analyze student performance data by combining multiple tables 
    - Gender-based score differences
    - Correlation heatmap
 
-
+---
 
 ## 🛠️ Tools & Libraries
 - Python  
 - Pandas  
 - NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-learn  
+- Matplotlib   
 
-
+---
 
 ## 📊 Key Insights
 - Positive correlation between study hours and performance.
@@ -45,7 +43,7 @@ To preprocess and analyze student performance data by combining multiple tables 
 - Few outliers identified in study time and scores.
 - Department-level performance trends observed.
 
-
+---
 
 ## 📈 Sample Visualizations
 (Include screenshots of your plots here)
