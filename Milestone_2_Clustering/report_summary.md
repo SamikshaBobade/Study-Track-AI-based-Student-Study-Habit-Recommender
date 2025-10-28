@@ -41,5 +41,5 @@ Cluster summaries and insights were displayed in a table format using color grad
 - Feature scaling and PCA help in achieving meaningful clusters.
 - K-Means clustering can reveal performance patterns among students.
 - Visual analysis supports better interpretation of clustering outcomes.
-
+  
 
